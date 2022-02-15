@@ -97,7 +97,7 @@ def get_image(image_name):
 
 @app.route('/')
 def index():  # put application's code here
-    return 'Hello World!'
+    return jsonify(users)
 
 if __name__ == "__main__":
     app.run()
